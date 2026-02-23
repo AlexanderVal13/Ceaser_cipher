@@ -1,0 +1,16 @@
+Breaking Caesar’s Cipher-
+
+During wartime, Julius Caesar developed a simple encryption method to send secret messages. In this cipher, each letter in a message is shifted forward in the alphabet by a fixed number of positions. The shift can range from 1 to 25 letters.
+
+For example, using a shift of 3:
+
+“cat in the hat” becomes “fdw lq wkh kdw.”
+
+Only someone who knows the shift value can easily decrypt the message.
+
+Approximately 800 years later, the mathematician Al-Kindi identified a fundamental weakness in this system. He observed that written language follows predictable patterns. In large bodies of text, certain letters appear more frequently than others, creating a consistent frequency distribution.
+
+By analyzing the frequency of letters in an encrypted message and comparing it to known language patterns, it becomes possible to estimate the shift and break the cipher.
+
+Now it’s your turn.
+Enter any message and choose a shift value to encrypt it. Then load a large sample of text such as a book or other lengthy writing and press "ENTER" when done. Lets use frequency analysis to see whether the cipher can be solved using Al-Kindi’s method!
