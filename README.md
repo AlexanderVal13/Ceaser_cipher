@@ -11,7 +11,7 @@ Analyze letter frequency (if implemented)
 Experiment with classical cryptography concepts
 This project was created for educational purposes to demonstrate foundational cryptographic principles.
 
-Check the pdf "how it works?" if you want a more in depth explanation 
+Check the pdf "EXPLAINING HOW IT WORKS" if you want more details.
 
 How to Run the Program
 Requirements
