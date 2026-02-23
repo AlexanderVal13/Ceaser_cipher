@@ -13,10 +13,10 @@ Requirements
 Processing IDE (https://processing.org/download)
 Java (included with Processing)
 Steps
-Download or clone this repository.
-Open the project folder in the Processing IDE.
-Open the .pde file.
-Click the Run button in Processing.
+1) Download or clone this repository.
+2) Open the project folder in the Processing IDE.
+3) Open the .pde file.
+4) Click the Run button in Processing.
 Follow the on-screen instructions to encrypt or decrypt text.
 If running from GitHub:
 git clone https://github.com/AlexanderVal13/Ceaser_cipher.git
