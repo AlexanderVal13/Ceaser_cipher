@@ -14,7 +14,7 @@ class Tutorial {
     textAlign(LEFT, TOP);
     textSize(24);
 
-    // This makes text wrap automatically
+    // text wrap automatically
     text(fullText, 50, 60, width - 100, height - 120);
 
     // --- NEXT BUTTON ---
@@ -23,7 +23,7 @@ class Tutorial {
     float nextW = 140;
     float nextH = 60;
 
-    // visible button (so you can see it)
+    // visible button 
     fill(255, 200, 50);
     rect(nextX, nextY, nextW, nextH, 10);
 

@@ -165,10 +165,10 @@ void keyPressed() {
     // make the secret actually encrypted
     String secretCipher = caesarEncrypt(currentText, guessedShift);
 
-    // count letters from ciphertext (pink bars + auto guess)
+    // count letters from cipherteext (pink bars + auto guess)
     secretCount = countLetters(secretCipher);
 
-    // store ciphertext so you can display it as "Secret:"
+    // store cipherteext so you can display it as "Secret:"
     currentText = secretCipher;
 
     showFreq = 1;
@@ -320,8 +320,6 @@ void keyTyped() {
     if (canAddCharToBox(candidate)) {
       currentText = candidate;
     } else {
-      // Optional debug
-      // println("Box full, ignoring input");
     }
   }
 }

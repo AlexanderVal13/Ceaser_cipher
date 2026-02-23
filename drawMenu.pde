@@ -18,7 +18,7 @@ void drawMenu() {
   float titleY = height * 0.18;
   text("Caesar-cipher", width/2, titleY);
 
-  // ---- Buttons (as centered text) ----
+  // ---- Buttons  ----
   textSize(70);
   fill(40, 90, 255);
 
@@ -33,7 +33,6 @@ void drawMenu() {
   text("Learn", width/2, tutY);
 
   // build clickable boxes around the text
-  // (gives you accurate centered clicks)
   playW = textWidth("Play");
   playH = textAscent() + textDescent();
   playX = width/2 - playW/2;
